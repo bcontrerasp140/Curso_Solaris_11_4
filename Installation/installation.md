@@ -1,7 +1,7 @@
 # Table of Contents
 - [OVM Installation](#oracle-virtual-machine-installation)
 - [Native Installation](#native-installation)
-- [Enable Desktop GUI](#enable-desktop-gui)
+- [Enable GUI Desktop](#enable-gui-desktop)
 
 
 # Oracle Virtual Machine Installation
@@ -81,8 +81,15 @@ Start the machine to begin the installation.
 ## 1. Download Solaris 11 ISO image
 Go to [Solaris 11 Downloads](https://www.oracle.com/solaris/solaris11/downloads/solaris11-install-downloads.html#license-lightbox) and select **x86 Text Installer**
 
-# Enable Desktop GUI
-
+# Enable GUI Desktop
+- Login as **root** user with `su` command
+- Run the command `pkg search solaris-desktop`, to sure the package are available
+![](/images/installation16.png)
+- Run the command `pkg install solaris-desktop` to donwload and install package
+![](/images/installation17.png)
+- Reboot the system with `reboot` command
+- Now be able to login with GUI Desktop environment
+![](/images/installation18.png)
 ## Título
 ### Subtítulo
 Este es un ejemplo de texto que da entrada a una lista genérica de elementos:
